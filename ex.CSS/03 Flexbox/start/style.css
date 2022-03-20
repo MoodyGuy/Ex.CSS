@@ -1,0 +1,18 @@
+.links {
+    color: #2b2b2b;
+    
+}
+
+a:hover {
+
+    color: #2b2bb2;
+    transition: 0.3s;
+}
+
+.sidebar {
+
+    width: 200px;
+    height: 100%;
+    display: flexbox;
+    flex-direction: column;
+}

@@ -1,0 +1,47 @@
+body {
+	font-family: monospace;
+}
+
+#expand-toggle {
+	display: none;
+	
+}
+
+.expandable {
+
+	width: 5rem;
+	height: 5rem;
+	background-color: #ff8888;
+	border: 1px solid black;
+	padding: 4rem;
+	
+
+
+}
+
+
+#toggle:checked~.expandable {
+
+background-color: #88ff88;
+}
+
+.expandable::after {
+content: "Mostra righe";
+	
+
+}
+
+#toggle:checked~.expandable::after {
+width: 8vw;
+height:  5rem;
+content: "Nascondi righe";
+
+border: 1px solid black;
+
+}
+
+
+.visually-hidden {
+    position: absolute;
+    left: -100vw;}
+

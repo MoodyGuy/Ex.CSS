@@ -1,0 +1,23 @@
+
+:root {
+
+  --first-color: #5629d3;
+--radius-change: 50px;
+}
+
+
+body {
+    background-color: #011212;
+    display: flex;
+    justify-content: center;
+}
+
+.ball {
+    width: 70vw;
+    height: 70vw;
+    background-color: #ff8800;
+    --first-color: #5629d3;
+--radius-change: 50px;
+  display:flex; 
+  align-self: flex-end;
+}
